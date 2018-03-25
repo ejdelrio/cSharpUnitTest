@@ -20,6 +20,13 @@ namespace XUnitTestProject2
             int output = calc.SubtractTwo(5, 2);
             Assert.True(output == 3, "Expects 5 - 2 to equal 3");
             Assert.False(output == 1, "Expects 5 - 2 to not equal 1");
+
+            //Failing Test :D  
+        }
+
+        public void TestFailingTest()
+        {
+            Assert.True(false, "This will fail. Just checking to make sure it fails :D");
         }
     }
 }
