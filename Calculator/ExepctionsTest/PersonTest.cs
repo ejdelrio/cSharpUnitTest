@@ -68,7 +68,7 @@ namespace ExepctionsTest
 
         [TestMethod]
         [ExpectedException(typeof(IndexOutOfRangeException))]
-        public void TestAssertion()
+        public void TestException()
         {
             int[] emptyArr = new int[0];
             int x = emptyArr[3];
