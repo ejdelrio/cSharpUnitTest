@@ -28,5 +28,17 @@ namespace XUnitTestProject2
         {
             Assert.True(false, "This will fail. Just checking to make sure it fails :D");
         }
+
+        [Fact]
+        public void TestException()
+        {
+
+            
+            
+        }
+
+        
+
+        
     }
 }
