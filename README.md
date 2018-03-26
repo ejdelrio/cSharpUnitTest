@@ -14,7 +14,7 @@ List of Steps:
 4. Create a second package in the same solution, using the XUnitTest package for .NET Core.
 
 5. Right Click on the package, click add, and add a reference. Click the project you'd like to test.
-  (This addes the project to the test projects namespace)
+  (This adds the project to the test projects namespace)
  
 6. Write your tests :D
 
